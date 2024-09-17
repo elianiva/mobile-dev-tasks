@@ -47,7 +47,7 @@ It doesn't output anything since we're not passing through any of the `if` state
 
 ```dart
 void main() {
-  int start = 10;
+  int start = 0;
   int end = 201;
 
   // Create a list to mark non-prime numbers
@@ -69,7 +69,10 @@ void main() {
   print("Prime numbers between $start and $end:");
   for (int i = start; i <= end; i++) {
     if (isPrime[i]) {
-      print(i);
+      print("Name: Dicha Zelianivan Arkana");
+      print("NIM: 2241720002");
+    } else {
+      print(isPrime[i]);
     }
   }
 }
